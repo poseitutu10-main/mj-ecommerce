@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -15,7 +14,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="bg-[#D9B899]">
-      <div className=" mx-auto px-4 sm:px-6 lg:px-20">
+      <div className="mx-auto px-4 sm:px-6 lg:px-20">
         <div className="flex flex-wrap justify-between items-center h-16">
           <div className="flex items-center gap-4 md:gap-10">
             <Link
