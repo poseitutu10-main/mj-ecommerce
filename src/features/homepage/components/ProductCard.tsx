@@ -10,7 +10,7 @@ const ProductCard = ({ product }: { product: Product }) => {
           alt={product.title}
           width={100}
           height={150}
-          className="w-full h-[30vh] md:h-[40vh]"
+          className="w-full h-[25vh] sm:h-[30vh] md:h-[40vh]"
         />
       </div>
       <h3 className="text-sm text-gray-800 font-semibold">{product.title}</h3>
